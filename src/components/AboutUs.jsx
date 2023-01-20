@@ -2,9 +2,9 @@ import React from 'react';
 
 const AboutUs = () => {
   return (
-    <div className="bg-slate-50">
-      <div className="max-w-screen-xl mx-auto pt-10">
-        <div className="px-6 py-16 mx-auto container ">
+    <section className="bg-slate-50">
+      <div className="max-w-screen-xl mx-auto">
+        <div className="px-6 py-20 mx-auto container ">
           <div className="grid gap-10 lg:grid-cols-2 items-center  ">
             <div className="lg:pr-10 text-center lg:text-left">
               <h5 className="mb-4 text-2xl sm:text-3xl md:text-5xl font-semibold leading-none">
@@ -28,7 +28,7 @@ const AboutUs = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
