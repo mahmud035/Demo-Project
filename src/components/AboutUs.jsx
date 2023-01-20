@@ -2,9 +2,9 @@ import React from 'react';
 
 const AboutUs = () => {
   return (
-    <section className="bg-slate-50">
+    <section id="about" className="bg-[#ECF8F5]">
       <div className="max-w-screen-xl mx-auto">
-        <div className="px-6 py-20 mx-auto container ">
+        <div className="px-6 py-20  container mx-auto">
           <div className="grid gap-10 lg:grid-cols-2 items-center  ">
             <div className="lg:pr-10 text-center lg:text-left">
               <h5 className="mb-4 text-3xl md:text-4xl font-semibold leading-none">

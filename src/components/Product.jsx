@@ -3,7 +3,7 @@ import productImage from '../assets/images/product-1.png';
 
 const Product = () => {
   return (
-    <section className="max-w-screen-xl mx-auto py-20">
+    <section id="product" className="max-w-screen-xl mx-auto py-20">
       <div className="container mx-auto px-6">
         <h2 className="text-center text-3xl md:text-4xl font-semibold">
           OUR PRODUCT
