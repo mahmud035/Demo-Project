@@ -3,7 +3,7 @@ import React from 'react';
 const Footer = () => {
   return (
     <footer>
-      <div className="max-w-screen-xl mx-auto py-6">
+      <div className="max-w-screen-xl mx-auto py-10">
         <div className="px-6 py-6 mx-auto container">
           <footer className="footer ">
             <div>
