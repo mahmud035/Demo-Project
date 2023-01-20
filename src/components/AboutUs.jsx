@@ -7,7 +7,7 @@ const AboutUs = () => {
         <div className="px-6 py-20 mx-auto container ">
           <div className="grid gap-10 lg:grid-cols-2 items-center  ">
             <div className="lg:pr-10 text-center lg:text-left">
-              <h5 className="mb-4 text-2xl sm:text-3xl md:text-5xl font-semibold leading-none">
+              <h5 className="mb-4 text-3xl md:text-4xl font-semibold leading-none">
                 ABOUT US
               </h5>
               <p className="mb-6 ">

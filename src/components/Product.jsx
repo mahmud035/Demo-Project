@@ -5,7 +5,7 @@ const Product = () => {
   return (
     <section className="max-w-screen-xl mx-auto py-20">
       <div className="container mx-auto px-6">
-        <h2 className="text-center text-2xl sm:text-3xl md:text-5xl font-semibold">
+        <h2 className="text-center text-3xl md:text-4xl font-semibold">
           OUR PRODUCT
         </h2>
 
