@@ -3,7 +3,7 @@ import productImage from '../assets/images/product-1.png';
 
 const Product = () => {
   return (
-    <section className="max-w-screen-xl mx-auto pt-32">
+    <section className="max-w-screen-xl mx-auto py-20">
       <div className="container mx-auto px-6">
         <h2 className="text-center text-2xl sm:text-3xl md:text-5xl font-semibold">
           OUR PRODUCT
@@ -38,7 +38,7 @@ const Product = () => {
           </div>
 
           {/* Single Product Card */}
-          <div className="px-4 py-6 border-solid border-2 border-[#f5f5f5] rounded-md">
+          <div className="px-4 py-6 border-solid border-2 border-[#f5f5f5] rounded-md ">
             <img className="w-32 mx-auto" src={productImage} alt="" />
             <div className="pt-5 text-center">
               <h3 className="text-2xl font-semibold pb-3">LOGO</h3>
