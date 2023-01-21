@@ -18,7 +18,7 @@ const Header = () => {
         <div className="px-6 container mx-auto h-full">
           <div className="grid grid-cols-1 justify-center items-center h-full">
             <div className="grid">
-              <h2 className="mb-5 font-sans text-3xl font-bold leading-10 tracking-tight text-white text-center sm:text-4xl ">
+              <h2 className="mb-5 font-sans text-3xl font-bold leading-10 text-white text-center sm:text-4xl ">
                 WE HELP YOUR BUSINESS
               </h2>
               <p className="mb-7  text-base text-white text-center md:text-lg md:w-4/5 md:mx-auto lg:w-[70%] lg:mx-auto xl:w-1/2 xl:mx-auto ">

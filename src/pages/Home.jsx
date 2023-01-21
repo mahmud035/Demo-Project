@@ -5,6 +5,7 @@ import Footer from '../components/Footer';
 import Header from '../components/Header';
 import Navbar from '../components/Navbar';
 import Product from '../components/Product';
+import Testimonial from '../components/Testimonial';
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
       <Header />
       <Product />
       <AboutUs />
+      <Testimonial />
       <Contact />
       <Footer />
     </div>
