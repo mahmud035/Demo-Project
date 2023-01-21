@@ -8,12 +8,13 @@ const Header = () => {
     backgroundSize: 'cover',
     backgroundRepeat: 'no-repeat',
     backgroundPosition: 'center',
-    backgroundColor: 'rgba(0,0,0,0.65)',
+    // backgroundColor: 'rgba(0,0,0,0.65)',
+    backgroundColor: 'rgba(19,78,74, 0.6)',
     backgroundBlendMode: 'overlay',
   };
 
   return (
-    <header style={bgImage} className="h-[60vh]">
+    <header style={bgImage} className="h-[60vh] ">
       <div className="px-4 py-6 max-w-screen-xl mx-auto h-full">
         <div className="px-6 container mx-auto h-full">
           <div className="grid grid-cols-1 justify-center items-center h-full">
