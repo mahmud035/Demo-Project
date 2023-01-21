@@ -9,7 +9,7 @@ const Header = () => {
     backgroundRepeat: 'no-repeat',
     backgroundPosition: 'center',
     // backgroundColor: 'rgba(0,0,0,0.65)',
-    backgroundColor: 'rgba(19,78,74, 0.6)',
+    backgroundColor: 'rgba(19,78,74, 0.7)',
     backgroundBlendMode: 'overlay',
   };
 
@@ -17,7 +17,11 @@ const Header = () => {
     <header style={bgImage} className="h-[60vh] ">
       <div className="px-4 py-6 max-w-screen-xl mx-auto h-full">
         <div className="px-6 container mx-auto h-full">
-          <div className="grid grid-cols-1 justify-center items-center h-full">
+          <div
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            className="grid grid-cols-1 justify-center items-center h-full"
+          >
             <div className="grid">
               <h2 className="mb-5 font-sans text-3xl font-bold leading-10 text-white text-center sm:text-4xl ">
                 WE HELP YOUR BUSINESS

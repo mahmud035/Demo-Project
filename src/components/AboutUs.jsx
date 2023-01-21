@@ -6,7 +6,12 @@ const AboutUs = () => {
       <div className="max-w-screen-xl mx-auto">
         <div className="px-6 py-20  container mx-auto">
           <div className="grid gap-10 lg:grid-cols-2 items-center  ">
-            <div className="lg:pr-10 text-center lg:text-left">
+            <div
+              data-aos="fade-right"
+              data-aos-duration="1000"
+              data-aos-easing="linear"
+              className="lg:pr-10 text-center lg:text-left"
+            >
               <h5 className="mb-4 text-3xl md:text-4xl font-semibold leading-none">
                 ABOUT US
               </h5>
@@ -18,7 +23,11 @@ const AboutUs = () => {
                 a soul - and that they can do it with inbound.
               </p>
             </div>
-            <div>
+            <div
+              data-aos="fade-left"
+              data-aos-duration="1000"
+              data-aos-easing="linear"
+            >
               <img
                 className="object-cover w-full h-64 rounded shadow-lg sm:h-80"
                 src="https://images.pexels.com/photos/3184430/pexels-photo-3184430.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
