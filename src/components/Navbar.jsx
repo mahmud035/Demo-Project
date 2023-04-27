@@ -5,8 +5,8 @@ const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <div className="px-4 py-5 max-w-screen-xl mx-auto  md:px-24 lg:px-8">
-      <div className="mx-auto container">
+    <div className="mx-auto max-w-screen-xl px-4 py-5  md:px-24 lg:px-8">
+      <div className="container mx-auto">
         <div className="relative flex items-center justify-between">
           <a
             href="/"
@@ -15,18 +15,18 @@ const Navbar = () => {
             className="inline-flex items-center"
           >
             <img
-              className="w-48 h-10 object-cover rounded-r-full"
+              className="h-10 w-48 rounded-r-full object-cover"
               src={logo}
               alt=""
             />
           </a>
-          <ul className="items-center hidden space-x-8 lg:flex">
+          <ul className="hidden items-center space-x-8 lg:flex">
             <li>
               <a
                 href="#home"
                 aria-label="Our product"
                 title="Our product"
-                className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                className="hover:text-deep-purple-accent-400 font-medium tracking-wide text-gray-700 transition-colors duration-200"
               >
                 Home
               </a>
@@ -36,7 +36,7 @@ const Navbar = () => {
                 href="#product"
                 aria-label="Our product"
                 title="Our product"
-                className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                className="hover:text-deep-purple-accent-400 font-medium tracking-wide text-gray-700 transition-colors duration-200"
               >
                 Product
               </a>
@@ -46,7 +46,7 @@ const Navbar = () => {
                 href="#about"
                 aria-label="Product pricing"
                 title="Product pricing"
-                className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                className="hover:text-deep-purple-accent-400 font-medium tracking-wide text-gray-700 transition-colors duration-200"
               >
                 About
               </a>
@@ -56,7 +56,7 @@ const Navbar = () => {
                 href="#contact"
                 aria-label="About us"
                 title="About us"
-                className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                className="hover:text-deep-purple-accent-400 font-medium tracking-wide text-gray-700 transition-colors duration-200"
               >
                 Contact
               </a>
@@ -66,7 +66,7 @@ const Navbar = () => {
             <button
               aria-label="Open Menu"
               title="Open Menu"
-              className="p-2 -mr-1 transition duration-200 rounded focus:outline-none focus:shadow-outline hover:bg-deep-purple-50 focus:bg-deep-purple-50"
+              className="focus:shadow-outline hover:bg-deep-purple-50 focus:bg-deep-purple-50 -mr-1 rounded p-2 transition duration-200 focus:outline-none"
               onClick={() => setIsMenuOpen(true)}
             >
               <svg className="w-5 text-gray-600" viewBox="0 0 24 24">
@@ -86,8 +86,8 @@ const Navbar = () => {
             </button>
             {isMenuOpen && (
               <div className="absolute top-0 left-0 w-full">
-                <div className="p-5 bg-white border rounded shadow-sm">
-                  <div className="flex items-center justify-between mb-4">
+                <div className="rounded border bg-white p-5 shadow-sm">
+                  <div className="mb-4 flex items-center justify-between">
                     <div>
                       <a
                         href="/"
@@ -96,7 +96,7 @@ const Navbar = () => {
                         className="inline-flex items-center"
                       >
                         <img
-                          className="w-48 h-10 object-cover rounded-r-full"
+                          className="h-10 w-48 rounded-r-full object-cover"
                           src={logo}
                           alt=""
                         />
@@ -106,7 +106,7 @@ const Navbar = () => {
                       <button
                         aria-label="Close Menu"
                         title="Close Menu"
-                        className="p-2 -mt-2 -mr-2 transition duration-200 rounded hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline"
+                        className="focus:shadow-outline -mt-2 -mr-2 rounded p-2 transition duration-200 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none"
                         onClick={() => setIsMenuOpen(false)}
                       >
                         <svg className="w-5 text-gray-600" viewBox="0 0 24 24">
@@ -125,7 +125,7 @@ const Navbar = () => {
                           href="#home"
                           aria-label="Our product"
                           title="Our product"
-                          className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                          className="hover:text-deep-purple-accent-400 font-medium tracking-wide text-gray-700 transition-colors duration-200"
                         >
                           Home
                         </a>
@@ -135,7 +135,7 @@ const Navbar = () => {
                           href="#product"
                           aria-label="Our product"
                           title="Our product"
-                          className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                          className="hover:text-deep-purple-accent-400 font-medium tracking-wide text-gray-700 transition-colors duration-200"
                         >
                           Product
                         </a>
@@ -145,7 +145,7 @@ const Navbar = () => {
                           href="#about"
                           aria-label="Product pricing"
                           title="Product pricing"
-                          className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                          className="hover:text-deep-purple-accent-400 font-medium tracking-wide text-gray-700 transition-colors duration-200"
                         >
                           About
                         </a>
@@ -155,7 +155,7 @@ const Navbar = () => {
                           href="#contact"
                           aria-label="About us"
                           title="About us"
-                          className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                          className="hover:text-deep-purple-accent-400 font-medium tracking-wide text-gray-700 transition-colors duration-200"
                         >
                           Contact
                         </a>
